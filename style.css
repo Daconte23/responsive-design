@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-color: teal;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+}
+
+.encabezado .menu .logo{
+    padding: 10px;
+}
+
+.encabezado .menu .lista{
+    float: right;
+    list-style: none;
+    margin-top: -60px;
+    margin-right: 20px;
+}
+
+.encabezado .menu .lista li{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.encabezado .cierre{
+    display: none;
+}
+
+
